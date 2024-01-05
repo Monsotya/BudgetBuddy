@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Budget Buddy</string>
+    <string name="title_home">Транзакції</string>
+    <string name="title_accounts">Баланс</string>
+    <string name="title_settings">Налаштування</string>
+    <string name="total_balance">Загальний Баланс</string>
+    <string name="income">Доходи</string>
+    <string name="expense">Витрати</string>
+    <string name="transactions">Транзакції</string>
+    <string name="date">Дата</string>
+    <string name="amount">Сума</string>
+    <string name="label">Назва</string>
+    <string name="add_transaction">Додати транзакцію</string>
+    <string name="description">Опис</string>
+    <string name="dark_mode">Темна тема</string>
+    <string name="choose_language">Виберіть мову</string>
+    <string name="choose_time_frame">Оберіть часові рамки</string>
+    <string name="error">Будь ласка введіть правильне значення</string>
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Українська</item>
+    </string-array>
+    <string-array name="time_options">
+        <item>За весь час</item>
+        <item>За цей рік</item>
+        <item>За цей місяць</item>
+        <item>За цей тиждень</item>
+    </string-array>
+</resources>

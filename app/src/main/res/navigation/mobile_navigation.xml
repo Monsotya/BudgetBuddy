@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.financetracking.budgetbuddy.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/transactions_layout" />
+
+    <fragment
+        android:id="@+id/navigation_accounts"
+        android:name="com.financetracking.budgetbuddy.ui.dashboard.DashboardFragment"
+        android:label="@string/title_accounts"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.financetracking.budgetbuddy.ui.notifications.NotificationsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/activity_settings" />
+</navigation>
